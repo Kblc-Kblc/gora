@@ -1,4 +1,4 @@
-# its
+# gora
 
 ## Project setup
 ```
