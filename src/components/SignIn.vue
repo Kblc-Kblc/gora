@@ -86,10 +86,9 @@ export default {
   max-width: 360px;
   margin: 0px auto;
   padding: 16px 30px 30px;
-   @media (max-width: $md4+px) {
+  @media (max-width: $md4+px) {
     margin: 0px 0px 30px 0px;
   }
-
 
   &__article {
   }
@@ -131,7 +130,7 @@ export default {
   }
 
   &__input {
-    margin: 0px 0px 24px 0px;
+    margin: 0px 0px 20px 0px;
   }
 
   &__btn {
@@ -141,5 +140,6 @@ export default {
 .forgot-password-link {
   display: block;
   padding: 0px 0px 20px 0px;
+  text-align: center;
 }
 </style>

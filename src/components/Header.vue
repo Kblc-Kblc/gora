@@ -13,9 +13,9 @@
           <router-link to="/" class="header-nav__item">
             <img src="../assets/home3.svg" alt="" />
           </router-link>
-          <router-link to="dashboard" class="header-nav__item" v-if="user"
-            >{{ user.email }}</router-link
-          >
+          <router-link to="dashboard" class="header-nav__item" v-if="user">{{
+            user.email
+          }}</router-link>
           <router-link to="sign-up" class="header-nav__item" v-if="!user"
             >Регистрация</router-link
           >
@@ -97,7 +97,9 @@ h2 {
 
     display: inline-block;
     position: relative;
-    
+    @media (max-width: $md4+px) {
+      margin: 0px 0px 10px 0px;
+    }
 
     &:after {
       background: none repeat scroll 0 0 transparent;
