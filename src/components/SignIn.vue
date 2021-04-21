@@ -86,6 +86,12 @@ export default {
   max-width: 360px;
   margin: 0px auto;
   padding: 16px 30px 30px;
+   @media (max-width: $md2+px) {
+    margin: 0px 0px 30px 0px;
+  }
+  @media (max-width: $md3+px) {
+    margin: 0px 0px 30px 0px;
+  }
   @media (max-width: $md4+px) {
     margin: 0px 0px 30px 0px;
   }

@@ -64,6 +64,16 @@ body {
   flex-direction: column;
   background: url("./assets/1.svg") 100% no-repeat;
   height: 100vh;
+
+  @media (max-width: $md2+px) {
+    overflow: auto;
+    align-items: center;
+  }
+  @media (max-width: $md3+px) {
+    overflow: auto;
+    align-items: center;
+  }
+
   @media (max-width: $md4+px) {
     overflow: auto;
     align-items: center;
