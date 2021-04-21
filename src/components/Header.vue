@@ -59,9 +59,7 @@ export default {
 h2 {
   color: #fff;
 }
-.header {
-  padding: 3vh 0px;
-}
+
 
 .header-nav {
   display: flex;
