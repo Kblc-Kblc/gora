@@ -85,7 +85,7 @@ h2 {
   }
 
   &__item {
-    margin: 0px 0px 10px 40px;
+    margin: 25px 0px 10px 40px;
     padding: 0px 0px 10px 0px;
     @include adaptiv-font(22, 18, 24);
     font-style: normal;
