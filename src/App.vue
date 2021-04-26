@@ -62,7 +62,8 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background: url("./assets/1.svg") 100% no-repeat;
+  background: url("./assets/1.svg") no-repeat;
+  background-size: 100%;
   height: 100vh;
 
   @media (max-width: $md2+px) {
