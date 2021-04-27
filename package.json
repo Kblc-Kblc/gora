@@ -1,6 +1,5 @@
 {
-  "name": "vue-auth-demo",
-  "author": "Gareth Redfern <garethr@hey.com>",
+  "name": "gora",
   "version": "0.1.0",
   "private": true,
   "scripts": {
